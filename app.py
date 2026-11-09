@@ -1,6 +1,6 @@
 history = []
-b = True
-while b:
+is_running = True
+while is_running:
     print('Привет! Я твой ИИ-Аналитик здоровья.')
     try:
         Weight = float(input('Введите ваш вес в килограммах:'))
@@ -28,11 +28,11 @@ while b:
         print('У вас идеальный вес! Поддерживайте форму')
     else:
         print('У вас избыточный вес. Рекомендуется похудение и дефицит калорий')
-    a=input('Хотите продолжить вычисления?: (Y/N)').upper()
-    if a == 'Y':
-        b = True
-    elif a == 'N':
-        b = False
+    user_choice = input('Хотите продолжить вычисления?: (Y/N)').upper()
+    if user_choice == 'Y':
+        is_running = True
+    elif user_choice == 'N':
+        is_running = False
         summa = sum(history) / len(history)
         print('Выход из программы.')
         print('---ИИ АНАЛИТИКА СОХРАНЕННЫХ ДАННЫХ---')
