@@ -9,7 +9,7 @@ A console-based Python application that calculates Body Mass Index (BMI) accordi
 * **Interactive Control Flow:** Employs a structured `while` loop controlled by boolean flags and interactive user prompts (`Y/N`) to manage session flow.
 
 ## Technical Stack
-* **Language:** Python 3.x
+* **Language:** Python 3.15.2
 * **Core Concepts:** Loops (`while`), exception handling (`try-except`), conditional branching (`if-elif-else`), type casting, math functions (`round`), list operations (`append`, `sum`, `len`).
 
 ## How It Works
